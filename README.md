@@ -1,7 +1,13 @@
-# stylelint-no-browser-hacks [![Build Status][ci-img]][ci]
+# stylelint-no-browser-hacks
+
+[![Build Status][ci-img]][ci]
+[![Latest version][npm-v-img]][npm]
+[![Downloads][npm-d-img]][npm]
 
 A plugin pack of stylehacks related linting rules for [stylelint].
+
 Original rule: [stylelint/no-browser-hacks][original-rule].
+
 Disallow browser hacks that are irrelevant to the browsers you are targeting.
 
 ```css
@@ -88,5 +94,8 @@ allowed.
 
 [ci-img]: https://travis-ci.org/Slamdunk/stylelint-no-browser-hacks.svg?branch=master
 [ci]: https://travis-ci.org/Slamdunk/stylelint-no-browser-hacks
+[npm]: https://www.npmjs.com/package/stylelint-no-browser-hacks
+[npm-v-img]: https://img.shields.io/npm/v/stylelint-no-browser-hacks.svg
+[npm-d-img]: https://img.shields.io/npm/dt/stylelint-no-browser-hacks.svg
 [stylelint]: https://stylelint.io/
 [original-rule]: https://github.com/stylelint/stylelint/tree/7.8.0/lib/rules/no-browser-hacks
