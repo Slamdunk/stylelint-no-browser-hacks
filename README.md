@@ -5,7 +5,8 @@
 [![Dependency Status][gemnasium-img]][gemnasium]
 [![Downloads][npm-d-img]][npm]
 
-A plugin pack of stylehacks related linting rules for [stylelint].
+A [stylelint] plugin that disallow browser hacks that are irrelevant to the
+browsers you are targeting, using [stylehacks].
 
 Original rule: [stylelint/no-browser-hacks][original-rule].
 
@@ -21,14 +22,12 @@ If you are uncertain what "browser hacks" are, ["An Introduction to
 Browser-Specific Hacks"](https://www.sitepoint.com/browser-specific-css-hacks/)
 explains it well.
 
-This rule uses [stylehacks](https://github.com/ben-eb/stylehacks) to detect the
-hacks. Then, in the spirit of stylelint, it tells you that you've done something
-wrong. If instead you would like to automatically remove browser hacks, use
-[stylehacks](https://github.com/ben-eb/stylehacks) directly.
+This rule uses [stylehacks] to detect the hacks. Then, in the spirit of
+stylelint, it tells you that you've done something wrong. If instead you would
+like to automatically remove browser hacks, use [stylehacks] directly.
 
-[stylehacks](https://github.com/ben-eb/stylehacks) is only compatible with
-standard CSS syntax, and does not support nested properties nor custom property
-sets.
+[stylehacks] is only compatible with standard CSS syntax, and does not support
+nested properties nor custom property sets.
 
 Bugs and feature requests should be reported on the
 [stylehacks issue tracker](https://github.com/ben-eb/stylehacks/issues).
@@ -43,7 +42,7 @@ npm install stylelint-no-browser-hacks
 
 Add `stylelint-no-browser-hacks` to your stylelint config plugins array, then
 add rules you need to the rules list.
-Note that the rule is namespaced with `slam/`.
+Note that the rule is namespaced with `plugin/`.
 
 Like so:
 
@@ -55,7 +54,7 @@ Like so:
 	],
 	"rules": {
 		// ...
-		"slam/no-browser-hacks": [true, {
+		"plugin/no-browser-hacks": [true, {
             browsers: [
                 "last 2 versions",
                 "ie >=7"
@@ -101,4 +100,5 @@ allowed.
 [gemnasium-img]: https://gemnasium.com/badges/github.com/Slamdunk/stylelint-no-browser-hacks.svg
 [gemnasium]: https://gemnasium.com/github.com/Slamdunk/stylelint-no-browser-hacks
 [stylelint]: https://stylelint.io/
+[stylehacks]: https://github.com/ben-eb/stylehacks
 [original-rule]: https://github.com/stylelint/stylelint/tree/7.8.0/lib/rules/no-browser-hacks
