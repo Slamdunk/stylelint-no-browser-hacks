@@ -1,0 +1,33 @@
+{
+	"name": "stylelint-no-browser-hacks",
+	"version": "1.0.0",
+	"description": "Stylelint plugin for stylehacks linting.",
+	"keywords": [
+        "no-browser-hacks",
+        "stylehacks",
+        "stylelint",
+        "stylelint-plugin"
+    ],
+	"author": {
+		"name": "Filippo Tessarotto",
+		"email": "zoeslam@gmail.com",
+		"url": "https://github.com/Slamdunk/"
+	},
+	"license": "MIT",
+	"repository": "Slamdunk/stylelint-no-browser-hacks",
+	"bugs": {
+		"url": "https://github.com/Slamdunk/stylelint-no-browser-hacks/pulls"
+	},
+	"homepage": "https://github.com/Slamdunk/stylelint-no-browser-hacks",
+	"files": [
+        "lib/"
+    ],
+	"dependencies": {
+		"stylehacks": "^2.3.1",
+		"stylelint": "^7.8.0"
+	},
+	"devDependencies": {
+		"eslint": "^3.15.0",
+		"stylelint-test-rule-ava": "^0.2.0"
+	}
+}
