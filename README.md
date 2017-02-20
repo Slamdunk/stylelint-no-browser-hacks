@@ -19,7 +19,7 @@ h1 { _color: white; }
 ```
 
 If you are uncertain what "browser hacks" are, ["An Introduction to
-Browser-Specific Hacks"](https://www.sitepoint.com/browser-specific-css-hacks/)
+Browser-Specific Hacks"][sitepoint-browser-specific-css-hacks]
 explains it well.
 
 This rule uses [stylehacks] to detect the hacks. Then, in the spirit of
@@ -30,7 +30,7 @@ like to automatically remove browser hacks, use [stylehacks] directly.
 nested properties nor custom property sets.
 
 Bugs and feature requests should be reported on the
-[stylehacks issue tracker](https://github.com/ben-eb/stylehacks/issues).
+[stylehacks issue tracker][stylehacks-issues].
 
 ## Installation
 
@@ -83,11 +83,10 @@ As this hack targets IE7-8.
 
 ### `browsers: "browserslist string"`
 
-A string interpreted by [browserslist](https://github.com/ai/browserslist) that
-designates precisely which browsers you wish to support. Something like
-`"> 1%, last 2 versions, ie >= 8"`. For details about the syntax (which is the
-same as when using Autoprefixer, by the way), please read
-[the browserslist documentation](https://github.com/ai/browserslist).
+A string interpreted by [browserslist] that designates precisely which browsers
+you wish to support. Something like `"> 1%, last 2 versions, ie >= 8"`. For
+details about the syntax (which is the same as when using Autoprefixer, by the
+way), please read [the browserslist documentation][browserslist].
 
 If you set `browsers: [ "last 2 versions", "ie >=7" ]` the hack above is
 allowed.
@@ -101,4 +100,7 @@ allowed.
 [gemnasium]: https://gemnasium.com/github.com/Slamdunk/stylelint-no-browser-hacks
 [stylelint]: https://stylelint.io/
 [stylehacks]: https://github.com/ben-eb/stylehacks
-[original-rule]: https://github.com/stylelint/stylelint/tree/7.8.0/lib/rules/no-browser-hacks
+[stylehacks-issues]: https://github.com/ben-eb/stylehacks/issues
+[original-rule]: https://github.com/stylelint/stylelint/tree/7.9.0/lib/rules/no-browser-hacks
+[sitepoint-browser-specific-css-hacks]: https://www.sitepoint.com/browser-specific-css-hacks
+[browserslist]: https://github.com/ai/browserslist
