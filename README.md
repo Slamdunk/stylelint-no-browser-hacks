@@ -4,6 +4,7 @@
 [![Latest version][npm-v-img]][npm]
 [![Dependency Status][gemnasium-img]][gemnasium]
 [![Downloads][npm-d-img]][npm]
+[![Greenkeeper badge][greenkeeper-img]][greenkeeper]
 
 A [stylelint] plugin that disallow browser hacks that are irrelevant to the
 browsers you are targeting, using [stylehacks].
@@ -98,9 +99,11 @@ allowed.
 [npm-d-img]: https://img.shields.io/npm/dt/stylelint-no-browser-hacks.svg
 [gemnasium-img]: https://gemnasium.com/badges/github.com/Slamdunk/stylelint-no-browser-hacks.svg
 [gemnasium]: https://gemnasium.com/github.com/Slamdunk/stylelint-no-browser-hacks
+[greenkeeper-img]: https://badges.greenkeeper.io/Slamdunk/stylelint-no-browser-hacks.svg
+[greenkeeper]: https://greenkeeper.io/
 [stylelint]: https://stylelint.io/
 [stylehacks]: https://github.com/ben-eb/stylehacks
 [stylehacks-issues]: https://github.com/ben-eb/stylehacks/issues
 [original-rule]: https://github.com/stylelint/stylelint/tree/7.9.0/lib/rules/no-browser-hacks
-[sitepoint-browser-specific-css-hacks]: https://www.sitepoint.com/browser-specific-css-hacks
+[sitepoint-browser-specific-css-hacks]: https://www.sitepoint.com/browser-specific-css-hacks/
 [browserslist]: https://github.com/ai/browserslist
