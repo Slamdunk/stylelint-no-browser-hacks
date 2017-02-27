@@ -51,7 +51,7 @@ Like so:
 // .stylelintrc
 {
 	"plugins": [
-		"stylelint-no-browser-hacks"
+		"/path/to/stylelint-no-browser-hacks/lib"
 	],
 	"rules": {
 		// ...
