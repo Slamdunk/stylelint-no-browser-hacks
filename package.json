@@ -1,6 +1,6 @@
 {
     "name": "stylelint-no-browser-hacks",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "Stylelint plugin for stylehacks linting.",
     "keywords": [
         "no-browser-hacks",
@@ -23,11 +23,11 @@
         "lib/"
     ],
     "dependencies": {
-        "stylehacks": "^2.3.1",
-        "stylelint": "^7.8.0"
+        "stylehacks": "^2.3.2",
+        "stylelint": "^8.0.0"
     },
     "devDependencies": {
-        "eslint": "^3.15.0",
+        "eslint": "^4.3.0",
         "stylelint-test-rule-ava": "^0.2.0"
     },
     "scripts": {
