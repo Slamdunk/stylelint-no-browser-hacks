@@ -23,11 +23,11 @@
         "lib/"
     ],
     "dependencies": {
-        "stylehacks": "^2.3.2",
-        "stylelint": "^8.0.0"
+        "stylehacks": "^2.3",
+        "stylelint": "^9.1"
     },
     "devDependencies": {
-        "eslint": "^4.3.0",
+        "eslint": "^4.18",
         "stylelint-test-rule-ava": "^0.2.0"
     },
     "scripts": {
