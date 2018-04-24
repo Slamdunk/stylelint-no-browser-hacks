@@ -1,6 +1,6 @@
 {
     "name": "stylelint-no-browser-hacks",
-    "version": "1.1.0",
+    "version": "1.2.1",
     "description": "Stylelint plugin for stylehacks linting.",
     "keywords": [
         "no-browser-hacks",
