@@ -46,20 +46,20 @@ Note that the rule is namespaced with `plugin/`.
 
 Like so:
 
-```js
+```json
 // .stylelintrc
 {
 	"plugins": [
-		"/path/to/stylelint-no-browser-hacks/lib"
+		"stylelint-no-browser-hacks"
 	],
 	"rules": {
 		// ...
 		"plugin/no-browser-hacks": [true, {
-            browsers: [
-                "last 2 versions",
-                "ie >=7"
-            ]
-        }],
+		    "browsers": [
+			"last 2 versions",
+			"ie >=7"
+		    ]
+		}],
 		// ...
 	}
 }
