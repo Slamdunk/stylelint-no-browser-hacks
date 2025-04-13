@@ -23,15 +23,31 @@
         "lib/"
     ],
     "dependencies": {
-        "stylehacks": "^2.3.2",
-        "stylelint": "^13.13.1"
+        "postcss": "^8.5.3",
+        "stylehacks": "^7.0.4",
+        "stylelint": "^16.18.0"
     },
     "devDependencies": {
-        "eslint": "^8.56.0",
-        "stylelint-test-rule-ava": "^0.2.0"
+        "@eslint/js": "^9.24.0",
+        "@vitest/coverage-istanbul": "^3.1.1",
+        "eslint": "^9.24.0",
+        "eslint-config-prettier": "^10.1.2",
+        "eslint-plugin-import": "^2.31.0",
+        "eslint-plugin-prettier": "^5.2.6",
+        "eslint-plugin-promise": "^7.2.1",
+        "prettier": "^3.5.3",
+        "stylelint-test-rule-node": "^0.4.0",
+        "vitest": "^3.1.1"
     },
     "scripts": {
-        "lint": "eslint .",
-        "test": "ava"
-    }
+        "prettier": "prettier --config prettier.config.mjs --check lib/*.js test/*.js eslint.config.mjs prettier.config.mjs",
+        "prettier-fix": "prettier --config prettier.config.mjs --write lib/*.js test/*.js eslint.config.mjs prettier.config.mjs",
+        "eslint": "eslint . --config eslint.config.mjs",
+        "eslint-fix": "eslint . --config eslint.config.mjs --fix",
+        "test": "node --test test/index.js",
+        "coverage": "vitest run --coverage",
+        "typecheck": "vitest typecheck"
+    },
+    "type": "module",
+    "main": "lib/index.js"
 }
