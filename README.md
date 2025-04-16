@@ -45,11 +45,11 @@ Note that the rule is namespaced with `plugin/`.
 
 Like so:
 
-```js
+```json
 // .stylelintrc
 {
 	"plugins": [
-		"/path/to/stylelint-no-browser-hacks/lib"
+		"stylelint-no-browser-hacks"
 	],
 	"rules": {
 		// ...
