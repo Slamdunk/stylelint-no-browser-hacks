@@ -13,17 +13,27 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
+
       matrix:
         node-version: [20, 22, 23]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
+    - name: "Checkout"
+      uses: "actions/checkout@v4"
       with:
-        node-version: ${{ matrix.node-version }}
+        # Disabling shallow clone is recommended for improving relevancy of reporting
+        fetch-depth: 0
+        lfs: false
+        persist-credentials: false
+
+    - name: "Use Node.js ${{ matrix.node-version }}"
+      uses: "actions/setup-node@v4"
+      with:
+        node-version: "${{ matrix.node-version }}"
         cache: 'npm'
+
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test

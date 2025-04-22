@@ -2,7 +2,6 @@
 
 [![Build Status][ci-img]][ci]
 [![Latest version][npm-v-img]][npm]
-[![Dependency Status][gemnasium-img]][gemnasium]
 [![Downloads][npm-d-img]][npm]
 
 A [stylelint] plugin that disallow browser hacks that are irrelevant to the
@@ -46,20 +45,15 @@ Note that the rule is namespaced with `plugin/`.
 
 Like so:
 
-```js
+```json
 // .stylelintrc
 {
 	"plugins": [
-		"/path/to/stylelint-no-browser-hacks/lib"
+		"stylelint-no-browser-hacks"
 	],
 	"rules": {
 		// ...
-		"plugin/no-browser-hacks": [true, {
-            browsers: [
-                "last 2 versions",
-                "ie >=7"
-            ]
-        }],
+		"plugin/no-browser-hacks": [true],
 		// ...
 	}
 }
@@ -79,25 +73,11 @@ a { color/*\**/: pink\9; }
 
 As this hack targets IE7-8.
 
-## Optional secondary options
-
-### `browsers: "browserslist string"`
-
-A string interpreted by [browserslist] that designates precisely which browsers
-you wish to support. Something like `"> 1%, last 2 versions, ie >= 8"`. For
-details about the syntax (which is the same as when using Autoprefixer, by the
-way), please read [the browserslist documentation][browserslist].
-
-If you set `browsers: [ "last 2 versions", "ie >=7" ]` the hack above is
-allowed.
-
 [ci-img]: https://travis-ci.org/Slamdunk/stylelint-no-browser-hacks.svg?branch=master
 [ci]: https://travis-ci.org/Slamdunk/stylelint-no-browser-hacks
 [npm]: https://www.npmjs.com/package/stylelint-no-browser-hacks
 [npm-v-img]: https://img.shields.io/npm/v/stylelint-no-browser-hacks.svg
 [npm-d-img]: https://img.shields.io/npm/dt/stylelint-no-browser-hacks.svg
-[gemnasium-img]: https://gemnasium.com/badges/github.com/Slamdunk/stylelint-no-browser-hacks.svg
-[gemnasium]: https://gemnasium.com/github.com/Slamdunk/stylelint-no-browser-hacks
 [stylelint]: https://stylelint.io/
 [stylehacks]: https://github.com/ben-eb/stylehacks
 [stylehacks-issues]: https://github.com/ben-eb/stylehacks/issues
