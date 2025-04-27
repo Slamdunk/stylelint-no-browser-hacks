@@ -25,11 +25,11 @@
     "dependencies": {
         "postcss": "^8.5.3",
         "stylehacks": "^7.0.4",
-        "stylelint": "^16.18.0"
+        "stylelint": "^16.19.1"
     },
     "devDependencies": {
-        "@eslint/js": "^9.24.0",
-        "eslint": "^9.24.0",
+        "@eslint/js": "^9.25.1",
+        "eslint": "^9.25.1",
         "eslint-config-prettier": "^10.1.2",
         "eslint-plugin-import": "^2.31.0",
         "eslint-plugin-prettier": "^5.2.6",
