@@ -24,15 +24,15 @@
     ],
     "dependencies": {
         "postcss": "^8.5.3",
-        "stylehacks": "^7.0.4",
+        "stylehacks": "^7.0.5",
         "stylelint": "^16.19.1"
     },
     "devDependencies": {
-        "@eslint/js": "^9.25.1",
-        "eslint": "^9.25.1",
-        "eslint-config-prettier": "^10.1.2",
+        "@eslint/js": "^9.26.0",
+        "eslint": "^9.26.0",
+        "eslint-config-prettier": "^10.1.5",
         "eslint-plugin-import": "^2.31.0",
-        "eslint-plugin-prettier": "^5.2.6",
+        "eslint-plugin-prettier": "^5.4.0",
         "eslint-plugin-promise": "^7.2.1",
         "prettier": "^3.5.3",
         "stylelint-test-rule-node": "^0.4.0"
