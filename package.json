@@ -23,18 +23,18 @@
         "lib/"
     ],
     "dependencies": {
-        "postcss": "^8.5.4",
-        "stylehacks": "^7.0.5",
-        "stylelint": "^16.20.0"
+        "postcss": "^8.5.6",
+        "stylehacks": "^7.0.6",
+        "stylelint": "^16.23.0"
     },
     "devDependencies": {
-        "@eslint/js": "^9.28.0",
-        "eslint": "^9.28.0",
-        "eslint-config-prettier": "^10.1.5",
-        "eslint-plugin-import": "^2.31.0",
-        "eslint-plugin-prettier": "^5.4.1",
+        "@eslint/js": "^9.32.0",
+        "eslint": "^9.32.0",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-prettier": "^5.5.3",
         "eslint-plugin-promise": "^7.2.1",
-        "prettier": "^3.5.3",
+        "prettier": "^3.6.2",
         "stylelint-test-rule-node": "^0.4.0"
     },
     "scripts": {
