@@ -1,6 +1,6 @@
 # stylelint-no-browser-hacks
 
-[![Build Status][ci-img]][ci]
+[![Node.js CI](https://github.com/Slamdunk/stylelint-no-browser-hacks/actions/workflows/test.yml/badge.svg)](https://github.com/Slamdunk/stylelint-no-browser-hacks/actions/workflows/test.yml)
 [![Latest version][npm-v-img]][npm]
 [![Downloads][npm-d-img]][npm]
 
@@ -73,8 +73,6 @@ a { color/*\**/: pink\9; }
 
 As this hack targets IE7-8.
 
-[ci-img]: https://travis-ci.org/Slamdunk/stylelint-no-browser-hacks.svg?branch=master
-[ci]: https://travis-ci.org/Slamdunk/stylelint-no-browser-hacks
 [npm]: https://www.npmjs.com/package/stylelint-no-browser-hacks
 [npm-v-img]: https://img.shields.io/npm/v/stylelint-no-browser-hacks.svg
 [npm-d-img]: https://img.shields.io/npm/dt/stylelint-no-browser-hacks.svg
