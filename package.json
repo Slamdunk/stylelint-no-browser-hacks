@@ -35,7 +35,7 @@
         "eslint-plugin-prettier": "^5.5.3",
         "eslint-plugin-promise": "^7.2.1",
         "prettier": "^3.6.2",
-        "stylelint-test-rule-node": "^0.4.0"
+        "stylelint-test-rule-node": "^0.4.0 || ^1.0.0"
     },
     "scripts": {
         "prettier": "prettier --config prettier.config.mjs --check lib/*.js test/*.js eslint.config.mjs prettier.config.mjs",
