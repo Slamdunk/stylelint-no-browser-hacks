@@ -25,7 +25,7 @@
     "dependencies": {
         "postcss": "^8.5.6",
         "stylehacks": "^7.0.6",
-        "stylelint": "^16.24.0"
+        "stylelint": "^16.24.0 || ^17.0.0"
     },
     "devDependencies": {
         "@eslint/js": "^9.35.0",
