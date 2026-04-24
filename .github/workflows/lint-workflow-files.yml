@@ -21,7 +21,7 @@ jobs:
       - name: "install libimagequant-dev"
         run: "sudo apt-get install libimagequant-dev -y"
 
-      - name: "Use Node.js 22"
+      - name: "Use Node.js 24"
         uses: "actions/setup-node@v6"
         with:
           node-version: "24.15.0"
